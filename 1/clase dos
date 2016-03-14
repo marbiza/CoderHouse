@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>clase dos</title></head>
+<body>
+
+<br> <!--salto de pagina--></br>
+<p> <!--parrfos--></p>
+<pre> <!--texto preformateado (con saltos de pagina todo. El p no lo respeta--></pre>
+<b> <!--negrita--></b>
+<em> <!--italica con mas enfasis--></em>
+<i> <!--italica--></i>
+<strong> <!--negrita con mas fuerza--></strong>
+
+
+Listas
+
+<ul>
+	<li></li>
+	<li></li>
+</ul>
+
+
+<ol>
+	<li></li>
+	<li></li>
+</ol>
+<dl> <!--lista de definiciones-->
+	<dt>  <!--termino que vas a definir--></dt>
+	<dd> <!--definicion--></dd>
+</dl>
+
+<dl>
+	<dt>COMER</dt>
+	<dd>Dicese de la persona que come</dd>
+</dl>
+
+TABLAS
+
+<table>
+	<caption>Los autos mas vendidos</caption> <!--Titulo general de la tabla. Es solo para tablas.-->
+	<thead>	<!--encabezado-->
+		<tr>
+			<th> Marca</th>
+			<th> Modeloz</th>
+			<th> Ano</th>
+			<th> Color</th>
+		</tr>
+	</thead>
+	<tbody>
+
+
+
+		<tr> <!--fila-->
+			<td> Audi </td> <!--celdas-->
+			<td> A3 </td>
+			<td> 2016 </td>
+			<td> Rojo </td>
+		</tr>
+
+	
+		<tr> <!--fila-->
+			<td> Seat </td> <!--celdas-->
+			<td> Leon </td>
+			<td> 2015 </td>
+			<td> Blanco </td>
+		</tr>
+	</tbody>
+	<tfoot> <!--pie. Es para sumar resultados, etc-->
+		<tr>	
+			<td colspan="4">Fuente: autos.com </td> <!--la celda ocupa los 4 espacios-->
+			
+		</tr>
+	</tfoot>
+</table>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+
+<body>
+
+
+<form action="maarbiza@outlook.com"> <!--formulario. Action es para enviar a algun lugar, por ejemplo al mail-->
+
+	<input type="text" size="10" maxlength="3" placeholder="codigo usuario"/> <!--tiene de largo 10 caracteres, pero podes poner maximo 3. El type puede ser "email"--> 
+	<br>
+	<input type="email" 
+			size="20" 
+			maxlength="20" 
+			value="hola@hotmail.com" 
+			placeholder="email"
+			minlenght="3"/> <!--el value pone algo que tenes que borra. el placeholder pone algo que cuando apretas se borra, como diciendote que es lo que tenes que escribir ahi en ese espacio-->
+	<br>
+	<input type="password" placeholder="password"/> <!--espacio para agregar la contrasena-->
+	<br>
+	<input type="date"/> <!--fecha. Saca un calendario!-->
+	<br>
+	<select> <!--es una lista de opciones. -->
+		<optgroup label="Genero"> <!--seria como el titulo del grupo de selecciones. No se puede seleccionar.-->
+		<option value="mujer">mujer</option> <!--el value es para darle un valor para distinguirlo. Sino, sin el value, hombre o mujer seria lo mismo.-->
+		<option value="hombre">hombre</option>
+		</optgroup>
+	</select>
+	<br>
+	<textarea placeholder="Agregue un comentario" rows="12" cols="12" required></textarea> <!--es un espacio donde se puede agregar texto. En este caso es de 12 filas x 12 columnas--> <!--El required es que esa informacion es requerida. Te sale un mensaje para que completes esa informacion-->
+	<br>
+	<label for="siId">Si</label> <!--con el id y el for relaciona el label con la seleccion que hicimos. solo va a existir ese id-->
+	<input id="siId"name="name1" type="radio" value="si" checked> <!-- son las pelotitas para chequear una u otra. con el checked aparece por defecto seleccionada esa y con el name1 las relaciona para que solo podamos seleccionar una de las dos.-->
+	<labe for="noId">No</labe>
+	<input id="noId"name="name1" type="radio" value="si" >
+	<br>
+	<input type="submit" value="enviar a todos"/> <!--boton para enviar. Solo podes agregarle el nombre-->
+	<button> Enviar a todos 2</button> <!--boton, pero se recomienda para lo anterior, usar el submit. Este puede ser un boton de cualqueir cosa-->
+
+</form>
+
+
+
+
+
+
+</body>
+</html>
