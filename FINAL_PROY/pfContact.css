@@ -1,0 +1,17 @@
+body{
+	background-image: url('http://www.chegino.ir/assets/img/4.jpg');
+	font-family: 'Arvo';
+}
+
+h2, p{
+	color: white;
+
+}
+
+textarea.form-control {
+    height: 130px;
+}
+
+button{
+	float: right;
+}

@@ -1,0 +1,85 @@
+body, html{
+	margin: 0px;
+}
+
+body{
+	background-image: url('http://www.francescotonelli.com/media/original/20110721_bk_062_2_full.jpg');
+	background-size: cover;
+	background-size: 1280px 710px;
+	background-repeat: no-repeat;
+	
+}
+
+/*.........INICIO............*/
+
+.container{
+	margin: 200px auto;
+	text-align: center;
+}
+
+.container h1{
+	font-family: 'Pirata One';
+	font-size: 150px;
+	text-shadow: 0 0 0.2em yellow;
+	text-decoration: none;
+}
+
+.container a{
+	text-decoration: none;
+	color: black;
+}
+
+.container a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+/*.container button{
+	margin-top: 30px;
+}*/
+
+.container p{
+	color: white;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+	opacity: 0.4;
+	letter-spacing: 3px;
+	font-family: 'Pirata One';
+	font-size: 20px;
+}
+/*............................*/
+
+/*............FORM............*/
+
+
+/*............................*/
+
+/*...........ANIMACION........*/
+
+.PicAnim{
+	transition: transform 1s ease;
+	animation: anim 2s;
+}
+
+@keyframes anim{
+	0%{transform:scale(3);}
+	50%{color: yellow;}
+	100%{transform:scale(1);}
+}
+
+.FormAnim{
+	transition: transform 1s ease;
+	animation: anim2 2s;
+}
+
+@keyframes anim2{
+	0%{visibility: hidden;}
+	100%{visibility: hidden;}
+}
+
+
+
+
+
+/*............................*/

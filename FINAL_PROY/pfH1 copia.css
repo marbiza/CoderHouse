@@ -1,0 +1,472 @@
+body, html{
+	margin: 0px;
+}
+
+body{
+	background-image: url('http://www.blackandburger.gr/wp-content/uploads/2014/10/blackandburger_background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: right;
+}
+
+/*.............HEADER............*/
+
+header{
+	background-color: black;
+	color: white;
+	height: 70px;
+
+}
+
+header.container {
+	padding-left: 60px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 27px;
+
+}
+
+header h6{
+	margin-bottom: 0px;
+    margin-top: 4px;
+    font-size: 62px;
+    font-family: 'Pirata One';
+    text-shadow: 0 0 0.2em yellow;
+    color: black;
+}
+
+header ul{
+	padding: 0px;
+}
+
+header nav li{
+	margin-left: 20px;
+}
+
+nav{
+	opacity: 0.5;
+}
+
+nav li{
+	display: inline-block;
+}
+
+.elementos li{
+	display: inline-block;
+	font-size: 35px;
+	color: #77807B;
+	margin-right: 20px;
+}
+
+.elementos li .material-icons{
+	font-size: 35px;
+	margin-top: 7px;
+}
+
+.elementos ul{
+	padding: 0px;
+	margin-top: 10px;
+}
+
+.elementos li:hover{
+	color: white;
+	transform:scale(1.5);
+}
+
+
+
+/*...............................*/
+
+/*.........Animacion.............*/
+
+.PicAnim{
+	transition: transform 2s ease;
+	animation: anim 1s;
+}
+
+@keyframes anim{
+
+	0%{transform:scale(3);}
+	50%{color: yellow;}
+	100%{transform:scale(1);}
+}
+
+.FormAnim{
+	transition: transform 1s ease;
+	animation: anim2 1s;
+}
+
+@keyframes anim2{
+	0%{visibility: hidden;}
+	100%{visibility: hidden;}
+}
+
+
+
+/*...............................*/
+
+/*.......SACAR BOOTSTRAP.........*/
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #77807B;
+    cursor: default; 
+    background-color: transparent;
+    border: none;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a{
+    margin-right: 0px;
+    line-height: 0;
+    border: none;
+    border-radius: 0;
+
+    color: #77807B;
+    cursor: default; 
+    background-color: transparent;
+    border: none;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a:hover, .nav>li>a:hover {
+	margin-right: 0px;
+    line-height: 0;
+    border: none;
+    border-radius: 0;
+
+    color: white;
+    cursor: default; 
+    background-color: transparent;
+    border: none;
+    border-bottom-color: transparent;
+}
+
+.nav>li>a{
+    position: relative;
+    display: inline-block;
+    padding: 0;
+
+    color: #77807B;
+    cursor: default; 
+    background-color: transparent;
+    border: none;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li.active>a:hover {
+    color: white;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+
+    color: #77807B;
+    cursor: default; 
+    background-color: transparent;
+    border-bottom-color: transparent;
+    border:none;
+}
+
+
+/*................................*/
+
+/*........TAB HISTORIA............*/
+
+.tab-content{
+	margin-top: 90px;
+}
+
+
+.tab-content h3{
+	font-size: 30px;
+	color: black;
+	font-family: 'Arvo';
+}
+
+.tab-content h5{
+	font-size: 20px;
+	color: black;
+	margin-bottom: 30px;
+	font-family: 'Arvo';
+	letter-spacing: 5px;
+	opacity: 0.7;
+	margin-top: 40px;
+}
+
+.tab-content>.active {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+p{
+	color: black;
+	opacity: 0.8;
+}
+
+.col-lg-2 {
+  
+    margin-left: 15px;
+}
+
+
+p .col-lg-6{
+	text-align: justify;
+}
+
+p .col-lg-4{
+	text-align: justify;
+
+}
+
+.tab-pane h3{
+	font-size: 30px;
+	color: black;
+	font-family: 'Arvo';
+}
+
+.scrollHistoria {
+    background-color: #FFF6E0;
+    opacity: 0.8;
+    border-radius: 10px;
+    height: 500px;
+    overflow: auto;
+}
+
+
+/*........Frase......*/
+
+.Frase p {
+    color: white;
+    font-size: 50px;
+    margin-top: -70px;
+}
+
+.Frase span{
+	font-size: 20px;
+	opacity: 0.7;
+}
+
+.Frase{
+	width: 270px;
+	float: left;
+	font-family: 'Arvo';
+	text-align: center;
+	margin-top: 70px;
+
+}
+
+.col-lg-3 {
+  
+    padding-right: 0px;
+}
+
+
+/*...................*/
+
+/*............RECETAS..........*/
+
+.Slider{
+	height: 250px;
+	margin-bottom: 70px;
+}
+
+.sliderRecetas{
+	background-image: url('http://eskipaper.com/images/wonderful-hamburger-wallpaper-1.jpg');
+	background-size: cover;
+	font-family: 'Arvo';
+	color: white;
+	text-align: center;
+	height: 300px;
+	padding-top: -20px;
+	background-position: 0px -147px;
+	background-repeat: no-repeat;
+
+}
+
+.sliderRecetas p{
+	font-size: 200px;
+	color: white;
+	height: 20px;
+	opacity: 0.7;
+}
+
+.sliderRecetas span {
+	font-size: 20px;
+	margin-top: 0px;
+	letter-spacing: 20px;
+	margin-left: 402px;
+	opacity: 0.7;
+}
+
+.cuadritoSlider{
+	background-color: black;
+	height: 300px;
+	font-family: 'Arvo';
+
+}
+
+.cuadritoSlider h5{
+	color: white;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+.cuadritoSlider p{
+	color: white;
+	opacity: 0.8;
+}
+/* Anim slider*/
+.aniFondos{
+	transition: transform 10s ease;
+	animation: fondos 10s infinite;
+}
+@keyframes fondos{
+	0%{background-image: url('http://eskipaper.com/images/wonderful-hamburger-wallpaper-1.jpg');}
+	25% {background-image: url('https://pbs.twimg.com/media/ChDZlf5WIAAPvj6.jpg');}
+	50%{background-image: url('http://www.telegraph.co.uk/content/dam/Food%20and%20drink/2015-09/08sep/patty-and-bunWEB_3419348a-xlarge.jpg');}
+	75%{background-image: url('https://pbs.twimg.com/media/CYnamJhWwAAi7Sb.jpg');}
+	100%{background-image: url('https://pbs.twimg.com/media/ChIVh9DWwAAFzlR.jpg');}
+}
+
+/*...*/
+
+
+.RecetaHam a{
+	font-family: 'Arvo';
+	color: white;
+}
+
+.RecetaHam{
+	text-align: center;
+}
+
+
+.RecetaHam a:hover{
+	color: white;
+}
+
+.RecetaHam h6{
+	font-size: 20px;
+	font-family: 'Arvo';
+	color: white;
+}
+
+/*.............................*/
+
+/*..........CERVEZA............*/
+
+
+.imgCerveza {
+    font-family: 'Arvo';
+    background-image: url('http://www.wallpaperup.com/uploads/wallpapers/2013/08/05/128011/big_thumb_813c2a1f4ab2c86984614186cd25f4e8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+	height: 610px;
+	margin-bottom: 30px;
+	margin-right: 18px;
+}
+
+.imgCerveza p {
+    opacity: 0.8;
+    font-size: 75px;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin-top: 90px;
+    margin-right: 0px;
+}
+
+
+.beer{
+	background-color: #FFF6E0;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	opacity: 0.8;
+}
+
+.beer img {
+    width: 80px;
+    height: 170px;
+    float: left;
+    padding: 5px;
+    
+}
+.beer h6{
+	font-size: 20px;
+	color: black;
+
+}
+
+.beer p{
+	font-size: 14px;
+	color: black;
+
+}
+
+.parrafoBeer p, .parrafoBeer h6{
+	   color: black
+}
+/*..............................*/
+
+/*...........FOOTER.............*/
+
+footer{
+	background-color: black;
+	height: 70px;
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 240px;
+}
+
+footer p{
+	float: left;
+	color: white;
+}
+
+footer nav{
+	float: right;
+	color: white;
+}
+
+footer nav a{
+	text-decoration: none;
+	color: white;
+}
+
+footer nav a:hover{
+	color: white;
+}
+/*..........VIDEO................*/
+
+.TituloVideo{
+	text-align:center;
+	margin-top: -30px;
+}
+
+.TituloVideo h3{
+	font-family: 'Arvo';
+	color: white;
+}
+
+.TituloVideo p{
+	font-family: 'Arvo';
+	color: white;
+
+}
+
+.videoSem{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+/*.................................*/
+
+
+
+
